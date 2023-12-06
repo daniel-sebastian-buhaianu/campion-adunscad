@@ -40,7 +40,7 @@ int main()
 			g << a[i] << semn[i+1];
 		g << a[i];
 	}
-	else g << 0;
+	else g << 0 << '\n';
 	g.close();
 	return 0;
 }
